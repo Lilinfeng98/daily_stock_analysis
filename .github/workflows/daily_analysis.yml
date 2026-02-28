@@ -17,9 +17,6 @@ on:
           - full          # 完整分析（股票+大盘）
           - market-only   # 仅大盘复盘
           - stocks-only   # 仅股票分析
-      TRADING_DAY_CHECK_ENABLED:
-        required: false
-        default: 'false'
 
 # 并发控制：同一时间只运行一个分析任务
 concurrency:
